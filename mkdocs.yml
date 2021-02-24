@@ -6,3 +6,8 @@ nav:
 site_name: 'laminas-{component}'
 site_description: ''
 repo_url: 'https://github.com/laminas/laminas-{component}'
+extra:
+    project: Components
+    installation:
+        config_provider_class: 'Laminas\{component}\ConfigProvider'
+        module_class: 'Laminas\{component}\Module'
