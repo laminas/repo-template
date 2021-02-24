@@ -1,7 +1,6 @@
 # laminas-{component}
 
-[![Build Status](https://travis-ci.com/laminas/laminas-{component}.svg?branch=master)](https://travis-ci.com/laminas/laminas-{component})
-[![Coverage Status](https://coveralls.io/repos/github/laminas/laminas-{component}/badge.svg?branch=master)](https://coveralls.io/github/laminas/laminas-{component}?branch=master)
+[![Build Status](https://github.com/laminas/laminas-{component}/workflows/Continuous%20Integration/badge.svg)](https://github.com/laminas/laminas-{component}/actions?query=workflow%3A"Continuous+Integration")
 
 This library provides …
 
@@ -19,5 +18,5 @@ Browse the documentation online at https://docs.laminas.dev/laminas-{component}/
 
 ## Support
 
-* [Issues](https://github.com/laminas/laminas-{component}/issues/)
-* [Forum](https://discourse.laminas.dev/)
+- [Issues](https://github.com/laminas/laminas-{component}/issues/)
+- [Forum](https://discourse.laminas.dev/)
