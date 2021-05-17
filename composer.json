@@ -1,23 +1,24 @@
 {
     "name": "laminas/laminas-{component}",
     "description": "",
-    "license": "BSD-3-Clause",
     "keywords": [
         "laminas"
     ],
-    "support": {
-        "docs": "https://docs.laminas.dev/laminas-{component}/",
-        "issues": "https://github.com/laminas/laminas-{component}/issues",
-        "source": "https://github.com/laminas/laminas-{component}",
-        "rss": "https://github.com/laminas/laminas-{component}/releases.atom",
-        "forum": "https://discourse.laminas.dev/"
-    },
+    "license": "BSD-3-Clause",
     "require": {
         "php": "^7.3 || ~8.0.0"
     },
     "require-dev": {
         "laminas/laminas-coding-standard": "~2.1.4",
         "phpunit/phpunit": "^9.3"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laminas": {
+            "module": "Laminas\\{component-namespace}"
+        }
     },
     "autoload": {
         "psr-4": {
@@ -29,18 +30,17 @@
             "LaminasTest\\{component-namespace}\\": "test/"
         }
     },
-    "extra": {
-        "laminas": {
-            "module": "Laminas\\{component-namespace}"
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
     "scripts": {
         "cs-check": "phpcs",
         "cs-fix": "phpcbf",
         "test": "phpunit --colors=always",
         "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
+    },
+    "support": {
+        "issues": "https://github.com/laminas/laminas-{component}/issues",
+        "forum": "https://discourse.laminas.dev/",
+        "source": "https://github.com/laminas/laminas-{component}",
+        "docs": "https://docs.laminas.dev/laminas-{component}/",
+        "rss": "https://github.com/laminas/laminas-{component}/releases.atom"
     }
 }
