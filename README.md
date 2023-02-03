@@ -1,6 +1,6 @@
-# laminas-{component}
+# laminas-changeme
 
-[![Build Status](https://github.com/laminas/laminas-{component}/workflows/Continuous%20Integration/badge.svg)](https://github.com/laminas/laminas-{component}/actions?query=workflow%3A"Continuous+Integration")
+[![Build Status](https://github.com/laminas/laminas-changeme/workflows/Continuous%20Integration/badge.svg)](https://github.com/laminas/laminas-changeme/actions?query=workflow%3A"Continuous+Integration")
 
 > ## 🇷🇺 Русским гражданам
 > 
@@ -25,14 +25,14 @@ This library provides …
 Run the following to install this library:
 
 ```bash
-$ composer require laminas/laminas-{component}
+$ composer require laminas/laminas-changeme
 ```
 
 ## Documentation
 
-Browse the documentation online at https://docs.laminas.dev/laminas-{component}/
+Browse the documentation online at https://docs.laminas.dev/laminas-changeme/
 
 ## Support
 
-- [Issues](https://github.com/laminas/laminas-{component}/issues/)
+- [Issues](https://github.com/laminas/laminas-changeme/issues/)
 - [Forum](https://discourse.laminas.dev/)

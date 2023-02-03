@@ -11,7 +11,7 @@
     </coverage>
 
     <testsuites>
-        <testsuite name="laminas-{component}">
+        <testsuite name="laminas-changeme">
             <directory>./test</directory>
         </testsuite>
     </testsuites>

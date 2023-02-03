@@ -3,11 +3,11 @@ site_dir: docs/html
 nav:
     - Home: index.md
     - Introduction: v1/intro.md
-site_name: 'laminas-{component}'
+site_name: 'laminas-changeme'
 site_description: ''
-repo_url: 'https://github.com/laminas/laminas-{component}'
+repo_url: 'https://github.com/laminas/laminas-changeme'
 extra:
     project: Components
     installation:
-        config_provider_class: 'Laminas\{component}\ConfigProvider'
-        module_class: 'Laminas\{component}\Module'
+        config_provider_class: 'Laminas\changeme\ConfigProvider'
+        module_class: 'Laminas\changeme\Module'

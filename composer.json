@@ -1,15 +1,15 @@
 {
-    "name": "laminas/laminas-{component}",
+    "name": "laminas/laminas-changeme",
     "description": "",
     "license": "BSD-3-Clause",
     "keywords": [
         "laminas"
     ],
     "support": {
-        "docs": "https://docs.laminas.dev/laminas-{component}/",
-        "issues": "https://github.com/laminas/laminas-{component}/issues",
-        "source": "https://github.com/laminas/laminas-{component}",
-        "rss": "https://github.com/laminas/laminas-{component}/releases.atom",
+        "docs": "https://docs.laminas.dev/laminas-changeme/",
+        "issues": "https://github.com/laminas/laminas-changeme/issues",
+        "source": "https://github.com/laminas/laminas-changeme",
+        "rss": "https://github.com/laminas/laminas-changeme/releases.atom",
         "forum": "https://discourse.laminas.dev/"
     },
     "require": {
@@ -21,20 +21,23 @@
     },
     "autoload": {
         "psr-4": {
-            "Laminas\\{component-namespace}\\": "src//"
+            "Laminas\\ChangeMe\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "LaminasTest\\{component-namespace}\\": "test/"
+            "LaminasTest\\ChangeMe\\": "test/"
         }
     },
     "extra": {
         "laminas": {
-            "module": "Laminas\\{component-namespace}"
+            "module": "Laminas\\ChangeMe"
         }
     },
     "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
         "sort-packages": true
     },
     "scripts": {

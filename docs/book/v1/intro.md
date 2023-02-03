@@ -1,3 +1,3 @@
-# laminas-{component}
+# laminas-changeme
 
 This component provides ...
